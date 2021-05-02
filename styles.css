@@ -28,7 +28,7 @@ div.nav-bar {
     width: 100vw;
   }
 }
-@media screen and (min-width: 1400px) { 
+@media screen and (min-width: 450px) { 
     div.nav-bar {
       display: flex;
       justify-content: space-between;
@@ -69,7 +69,7 @@ ul.nav-links {
     padding: 0;
   }
 }
-@media screen and (min-width:1400px){
+@media screen and (min-width:450px){
     ul.nav-links{
     margin: 0;
     padding: 0;
@@ -113,7 +113,7 @@ div.hero-section {
     
 }
 
-@media screen and (min-width:885px) and (max-width: 1400px){
+@media screen and (min-width:885px) and {
     div.hero-section {
         background: #304353;
         padding: 10rem;
@@ -250,7 +250,7 @@ div.hero-background {
     justify-content: center;
     align-items: center;
 }
-@media screen and (min-width:450px){
+@media screen and (max-width:450px){
   div.hero-background {
     align-items:left;
   }
@@ -544,7 +544,7 @@ div.box1 h5 {
     color: #E44C65;
     font-size: 1rem;
 }
-@media screen and (min-width:650px) and (max-width: 1400px){
+@media screen and (min-width:650px){
     div.snapshot-team {
         background: #f0f0f0;
         text-align: center;
@@ -784,7 +784,7 @@ div.box1 h5 {
         font-size: 1rem;
         padding-top: 6rem;
     }  
-@media screen and (min-width: 450px) and (max-width:1400px) {
+@media screen and (min-width: 450px) and (max-width:450) {
     div.footer {
         background: #304353;
         padding: 3rem;
